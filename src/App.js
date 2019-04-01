@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-//import logo from './logo.svg';
-import logo from './mib.jpg';
+import logo from './logo.svg';
+import image from './mib.jpg';
 import './App.css';
 
 class App extends Component {
@@ -21,6 +21,9 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <main>
+          <img src={image} className="App-img" alt="img"/>
+        </main>
       </div>
     );
   }
