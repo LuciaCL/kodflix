@@ -14,5 +14,15 @@ img {
 .item {
   flex: 1;
   font-weight: bold;
-  /*margin: 30px;*/
+  padding: 30px;
 }
+
+.tvShows {
+  max-width: 100%; 
+}
+
+@media only screen and (max-width: 400px){
+  .container {
+    flex-direction: column;
+  }
+} 

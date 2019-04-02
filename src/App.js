@@ -17,28 +17,28 @@ class App extends Component {
         <h1>Welcome to Kodflix</h1>
         <img src={image} alt="first cover"/>
         <br/>
-        <div className='container'>
-          <div className='item'>
-            <img src={blackMirror} alt="first cover"/>
+          <div className='container'>
+            <div className='item'>
+              <img src={blackMirror} alt="black mirror cover"/>
+            </div>
+            <div className='item'>
+              <img src={breakingBad} alt="breaking bad cover"/>
+            </div>
+            <div className='item'>
+              <img src={deathNote} alt="death note cover"/>
+            </div>
           </div>
-          <div className='item'>
-            <img src={breakingBad} alt="first cover"/>
+          <div className='container' >
+            <div className='item'>
+              <img src={gameOfThrones} alt="game of thrones cover"/>
+            </div>
+            <div className='item'>
+              <img src={walkingDead} alt="walking dead cover"/>
+            </div>
+            <div className='item'>
+              <img src={theWire} alt="the wire cover"/>
+            </div>
           </div>
-          <div className='item'>
-            <img src={deathNote} alt="first cover"/>
-          </div>
-        </div>
-        <div className='container' >
-          <div className='item'>
-            <img src={gameOfThrones} alt="first cover"/>
-          </div>
-          <div className='item'>
-            <img src={walkingDead} alt="first cover"/>
-          </div>
-          <div className='item'>
-            <img src={theWire} alt="first cover"/>
-          </div>
-        </div>
       </div>
     );
   }
