@@ -18,25 +18,31 @@ class App extends Component {
         <img src={image} alt="first cover"/>
         <br/>
           <div className='container'>
-            <div className='item'>
-              <img src={blackMirror} alt="black mirror cover"/>
+            <div className='item' >
+              <img  src={blackMirror} alt="black mirror cover"/>
+              <h1 className="myH1Style">Black Mirror</h1>
             </div>
             <div className='item'>
               <img src={breakingBad} alt="breaking bad cover"/>
+              <h1 className='myH1Style'> Breaking Bad</h1>  
             </div>
             <div className='item'>
               <img src={deathNote} alt="death note cover"/>
+              <h1 className='myH1Style'>Death Note</h1>  
             </div>
           </div>
           <div className='container' >
             <div className='item'>
               <img src={gameOfThrones} alt="game of thrones cover"/>
+              <h1 className='myH1Style'> Game of Thrones</h1>  
             </div>
             <div className='item'>
               <img src={walkingDead} alt="walking dead cover"/>
+              <h1 className='myH1Style'> Walking Dead</h1>  
             </div>
             <div className='item'>
               <img src={theWire} alt="the wire cover"/>
+              <h1 className='myH1Style'>The wire</h1>  
             </div>
           </div>
       </div>
@@ -45,3 +51,4 @@ class App extends Component {
 }
 
 export default App;
+

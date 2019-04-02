@@ -1,12 +1,9 @@
 .App {
   text-align: center;
 }
-
 img {
   width: 100%;
-}
-.item{
-  flex: 0;
+  padding-bottom: 0%;
 }
 .container {
   display: flex;
@@ -15,12 +12,22 @@ img {
   flex: 1;
   font-weight: bold;
   padding: 30px;
+  position: relative;
 }
+.myH1Style{
+  opacity: 0.0;
+  position: relative;
+  bottom: 25%;
 
-.tvShows {
-  max-width: 100%; 
 }
-
+.myH1Style:hover {
+  flex: 1;
+  background-color: green;
+  width: 100%;
+  background-position: bottom;
+  opacity: 0.7;
+  bottom: 25%;
+}
 @media only screen and (max-width: 400px){
   .container {
     flex-direction: column;
