@@ -19,29 +19,41 @@ class App extends Component {
           <div className='container'>
             <div className='item' >
               <img  src={blackMirror} alt="black mirror cover"/>
-              <div className="titleMovie"><h1 >Black Mirror</h1></div>
+              <div className="overlay">
+                <h1 >Black Mirror</h1>
+              </div>
             </div>
             <div className='item'>
               <img src={breakingBad} alt="breaking bad cover"/>
-              <h1 className='titleMovie'> Breaking Bad</h1>  
+              <div className="overlay">
+                <h1> Breaking Bad</h1>  
+              </div>
             </div>
             <div className='item'>
               <img src={deathNote} alt="death note cover"/>
-              <h1 className='titleMovie'>Death Note</h1>  
+              <div className="overlay">
+                <h1>Death Note</h1>
+              </div>  
             </div>
           </div>
           <div className='container' >
             <div className='item'>
               <img src={gameOfThrones} alt="game of thrones cover"/>
-              <h1 className='titleMovie'> Game of Thrones</h1>  
+              <div className="overlay">
+                <h1> Game of Thrones</h1>  
+              </div>
             </div>
             <div className='item'>
               <img src={walkingDead} alt="walking dead cover"/>
-              <h1 className='titleMovie'> Walking Dead</h1>  
+              <div className="overlay">
+                <h1> Walking Dead</h1>  
+              </div>
             </div>
             <div className='item'>
               <img src={theWire} alt="the wire cover"/>
-              <h1 className='titleMovie'>Wonder Woman</h1>  
+              <div className="overlay">
+                <h1>Wonder Woman</h1>  
+              </div>
             </div>
           </div>
       </div>
