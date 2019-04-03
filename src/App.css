@@ -11,22 +11,23 @@ img {
 .item {
   flex: 1;
   font-weight: bold;
-  padding: 30px;
   position: relative;
+  padding: 10px;
+  border: 0.1%;
 }
-.myH1Style{
+.titleMovie{
   opacity: 0.0;
-  position: relative;
-  bottom: 25%;
+  position: absolute;
+  bottom: 10%;
 
 }
-.myH1Style:hover {
+.titleMovie:hover {
   flex: 1;
   background-color: green;
-  width: 100%;
+  width: 92%;
   background-position: bottom;
-  opacity: 0.7;
-  bottom: 25%;
+  opacity: 0.8;
+  bottom: 4%;
 }
 @media only screen and (max-width: 400px){
   .container {
