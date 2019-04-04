@@ -19,7 +19,7 @@ class App extends Component {
         <img src={image} alt="first cover"/>
         <br/>
           <div className='container'>
-            <Stack name="Black Mirro" source={blackMirror} title="black mirror cover"></Stack>
+            <Stack name="Black Mirror" source={blackMirror} title="black mirror cover"></Stack>
             <Stack name="Breaking Bad" source={breakingBad} title="breaking bad cover"></Stack>
             <Stack name="Death Note" source={deathNote} title="death note cover"></Stack>
           </div>
