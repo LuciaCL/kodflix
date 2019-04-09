@@ -7,11 +7,17 @@ img {
 }
 
 .container {
-  display: flex;
+  /*display: flex;
+  flex-wrap: wrap;
+  */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .item {
-  flex: 1;
+  /*flex: 1;
+  flex-basis: 120px;
+  */
   font-weight: bold;
   position: relative;
   padding: 10px;
@@ -34,8 +40,11 @@ img {
   bottom: 0;
 }
 
+/*
 @media only screen and (max-width: 400px){
   .container {
     flex-direction: column;
+    
   }
 } 
+*/
