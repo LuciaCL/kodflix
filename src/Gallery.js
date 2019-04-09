@@ -11,14 +11,14 @@ export default function Gallery(props){
     return (
         <div>
             <div className='container'>
-                <Stack name="Black Mirror" source={blackMirror} title="black mirror cover"></Stack>
-                <Stack name="Breaking Bad" source={breakingBad} title="breaking bad cover"></Stack>
-                <Stack name="Death Note" source={deathNote} title="death note cover"></Stack>
+                <Stack name="Black Mirror" source={blackMirror} title="black mirror cover" id='BlackMirror'></Stack>
+                <Stack name="Breaking Bad" source={breakingBad} title="breaking bad cover" id='BreakingBad'></Stack>
+                <Stack name="Death Note" source={deathNote} title="death note cover" id='DeathNote'></Stack>
             </div>
             <div className='container' >
-                <Stack name="Game of Thrones" source={gameOfThrones} title="game of thrones cover"></Stack>
-                <Stack name="Walking Dead" source={walkingDead} title="walking dead cover"></Stack>
-                <Stack name="Wonder Woman" source={wonderWoman} title="wonder woman cover"></Stack>
+                <Stack name="Game of Thrones" source={gameOfThrones} title="game of thrones cover" id='GameOfThrones'></Stack>
+                <Stack name="Walking Dead" source={walkingDead} title="walking dead cover" id='WalkingDead'></Stack>
+                <Stack name="Wonder Woman" source={wonderWoman} title="wonder woman cover" id='WonderWoman'></Stack>
             </div>
         </div>
     )
