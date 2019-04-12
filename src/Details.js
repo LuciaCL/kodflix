@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 import getTvShows from './TvShows-get.js';
 
 export default class Details extends React.Component {
@@ -21,11 +21,14 @@ export default class Details extends React.Component {
     }
 
     render() {
+        let tvShow = this.state.tvShow;
         return (
+            tvShow ?
             <div>
                 <h1>{this.state.tvShow.name}</h1>
                 <Link to='/'>Back to home page</Link>
-            </div>
+            </div> 
+            : <Redirect to='./not-found'/>
         );
     }
 }
