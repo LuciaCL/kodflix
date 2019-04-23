@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Stack(props){
     return (
       <Link to={'/'+ props.id} className='item'>
-        <img src={props.source} alt={props.title} />
+        <img src={props.cover} alt={props.title} />
         <div className="overlay">
           <h1 >{props.name}</h1>
         </div>

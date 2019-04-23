@@ -13,7 +13,7 @@ export default function Gallery(props){
                         key={stack.id}
                         id={stack.id} 
                         name={stack.name} 
-                        source={stack.source} 
+                        cover={stack.cover} 
                         title={stack.title} 
                     />
                     );

@@ -7,11 +7,9 @@ img {
 }
 
 .container {
-  /*display: flex;
-  flex-wrap: wrap;
-  */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  background-color:rgb(206, 204, 204);
 }
 
 .item {
@@ -39,12 +37,3 @@ img {
   opacity: .8;
   bottom: 0;
 }
-
-/*
-@media only screen and (max-width: 400px){
-  .container {
-    flex-direction: column;
-    
-  }
-} 
-*/
