@@ -8,14 +8,13 @@ img {
 
 .container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  /*1 fr, one colum. 1fr 1fr , 2 columns... and so on*/
   background-color:rgb(206, 204, 204);
 }
 
 .item {
-  /*flex: 1;
-  flex-basis: 120px;
-  */
+
   font-weight: bold;
   position: relative;
   padding: 10px;

@@ -6,7 +6,7 @@ details {
     justify-content: flex-end;
     padding: 10px;
     flex: 1;
-    flex-basis: 90px;
+    /*flex-basis: 90px;*/
 }
 
 .details-container {
@@ -16,6 +16,9 @@ details {
     align-items: center;
     text-align: center;
     justify-content: center;
+    flex-basis: 100px; /*move the elements when is small than 100px */
+    /*box-sizing: border-box; /* the border is inside the dimesions. in flex-basis, 
+    if we have a border, is inside the 100px */
 }
 
 .details-container-text {
@@ -24,3 +27,12 @@ details {
     flex: 1;
     flex-basis: 100px;
 }
+
+/*
+@media only screen and (max-width: 400px){
+    .details-container {
+        flex-direction: column;
+
+    }
+}
+*/
