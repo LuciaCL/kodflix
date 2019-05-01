@@ -6,6 +6,7 @@ import Details from './Details/Details.js';
 import NotFound from './NotFound';
 
 class App extends Component {
+  
   render() {
     return (
       <Router>

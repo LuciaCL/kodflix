@@ -6,6 +6,7 @@ import wonderWoman from './covers/wwcover.jpg';
 import walkingDead from './covers/wdcover.jpg';
 
 export default function getTvShows(){
+
     return[
         {name:'Breaking Bad' ,
             cover: breakingBad , 

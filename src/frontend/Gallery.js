@@ -3,6 +3,15 @@ import Stack from "./Stack";
 import getTvShows from './TvShows-get.js';
 
 export default function Gallery(props){
+
+    fetch('/rest/shows')
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(myJson) {
+      console.log(JSON.stringify(myJson));
+    });
+  
     return (
         <div>
             <div className='container'>
@@ -22,4 +31,5 @@ export default function Gallery(props){
             </div>
         </div>
     )
+    
 }
