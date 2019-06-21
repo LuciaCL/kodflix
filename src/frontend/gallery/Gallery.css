@@ -27,6 +27,8 @@ img {
     background-color: purple;
     transition: bottom ease 1s;
     opacity: .8;
+    color: white;
+    
   }
   .item:hover .overlay {
     opacity: .8;
